@@ -1,0 +1,9 @@
+neovim
+fzf
+codium (check https://vscodium.com/ for details)
+zoxide
+zsh
+python3-pip
+kitty
+starship
+stow
