@@ -7,3 +7,6 @@ python3-pip
 kitty
 starship
 stow
+ollama (as well as llama3.1:8b)
+firacode nerd font
+
