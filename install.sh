@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-echo "=== Fedora GNOME Dotfiles Installer ==="
+echo "=== AK Fedora GNOME Dotfiles Installer ==="
 
 # --- Prereqs ---
 sudo dnf install -y git stow dconf util-linux-user zsh
@@ -54,5 +54,5 @@ if [ -f ".zshrc" ]; then
   stow -t ~ .zshrc 2>/dev/null || cp .zshrc ~/
 fi
 
-echo "=== Setup Complete! ==="
+echo "=== Setup Complete! :P ==="
 
