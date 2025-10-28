@@ -1,0 +1,88 @@
+2025-10-21 00:43:36.198 [info] Name: Ruff
+2025-10-21 00:43:36.198 [info] Module: ruff
+2025-10-21 00:43:36.198 [info] Python extension loading
+2025-10-21 00:43:36.198 [info] Waiting for interpreter from python extension.
+2025-10-21 00:43:36.198 [info] Python extension loaded
+2025-10-21 00:43:36.198 [info] Using interpreter: /bin/python
+2025-10-21 00:43:36.198 [info] Workspace settings for /home/chunote/Documents/codin/campSearch: {
+    "nativeServer": "auto",
+    "cwd": "/home/chunote/Documents/codin/campSearch",
+    "workspace": "file:///home/chunote/Documents/codin/campSearch",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [
+        "/bin/python"
+    ],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": [],
+        "preview": null,
+        "select": null,
+        "extendSelect": null,
+        "ignore": null
+    },
+    "format": {
+        "args": [],
+        "preview": null,
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "exclude": null,
+    "lineLength": null,
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true,
+    "logLevel": null,
+    "logFile": null
+}
+2025-10-21 00:43:36.198 [info] Global settings: {
+    "nativeServer": "auto",
+    "cwd": "/home/chunote",
+    "workspace": "/home/chunote",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": [],
+        "backend": "internal"
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst",
+    "showSyntaxErrors": true
+}
+2025-10-21 00:43:36.225 [info] Falling back to bundled executable: /home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 00:43:36.264 [info] Resolved 'ruff.nativeServer: auto' to use the native server
+2025-10-21 00:43:36.279 [info] Found Ruff 0.14.0 at /home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff
+2025-10-21 00:43:36.280 [info] Server run command: /home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/bundled/libs/bin/ruff server
+2025-10-21 00:43:36.282 [info] Server: Start requested.

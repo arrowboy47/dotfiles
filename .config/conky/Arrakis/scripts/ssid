@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#=============================================
+# Version : 1.0
+# Author  : Closebox73
+# Desc    : Display current WiFi SSID.
+#           Use '-i' flag to include icon.
+#=============================================
+
+SSID_NAME=$(nmcli -t -f active,ssid dev wifi | awk -F: '$1=="yes"{print $2}')
+
+if [[ -n "$SSID_NAME" ]]; then
+	if [[ "$1" == "-i" ]]; then
+		echo "  $SSID_NAME"
+	else
+		echo "$SSID_NAME"
+	fi
+else
+	echo "Not connected"
+fi
+
+exit 0

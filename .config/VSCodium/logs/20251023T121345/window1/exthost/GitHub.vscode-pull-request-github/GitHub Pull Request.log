@@ -1,0 +1,17 @@
+2025-10-23 12:13:55.168 [warning] /home/chunote/.ssh/config: ENOENT: no such file or directory, open '/home/chunote/.ssh/config'
+2025-10-23 12:13:55.168 [info] [Activation] Extension version: 0.120.1
+2025-10-23 12:13:55.503 [info] [Authentication] Creating hub for .com
+2025-10-23 12:13:55.576 [info] [Activation] Looking for git repository
+2025-10-23 12:13:55.576 [info] [Activation] Found 0 repositories during activation
+2025-10-23 12:13:55.576 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-10-23 12:13:55.587 [info] [GitAPI] Registering git provider
+2025-10-23 12:13:55.587 [info] [Review+0] Validate state in progress
+2025-10-23 12:13:55.587 [info] [Review+0] Validating state...
+2025-10-23 12:13:55.642 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/chunote/Documents/codin/campSearch
+2025-10-23 12:13:56.302 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-10-23 12:13:56.405 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-10-23 12:13:56.430 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2025-10-23 12:13:57.027 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-10-23 12:13:57.037 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-10-23 13:11:16.750 [info] [Activation] Repo state for file:///home/chunote/Documents/codin/campSearch changed.
+2025-10-23 13:11:16.750 [info] [Activation] Repo file:///home/chunote/Documents/codin/campSearch has already been setup.

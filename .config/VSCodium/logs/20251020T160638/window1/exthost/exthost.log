@@ -1,0 +1,92 @@
+2025-10-20 16:06:41.045 [info] Extension host with pid 27968 started
+2025-10-20 16:06:41.045 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-20 16:06:41.174 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-20 16:06:41.184 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:app.py'
+2025-10-20 16:06:41.611 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-20 16:06:41.696 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-20 16:06:41.879 [info] Extension host with pid 28053 started
+2025-10-20 16:06:41.879 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-20 16:06:41.934 [info] Eager extensions activated
+2025-10-20 16:06:41.981 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:42.013 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-20 16:06:42.398 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-20 16:06:42.564 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb'
+2025-10-20 16:06:42.665 [info] Eager extensions activated
+2025-10-20 16:06:42.766 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-20 16:06:42.849 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:42.854 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:42.962 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:42.969 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:43.226 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:43.228 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:43.344 [info] ExtensionService#_doActivateExtension franneck94.vscode-python-config, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:43.353 [info] ExtensionService#_doActivateExtension Supermaven.supermaven, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:43.760 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-10-20 16:06:44.207 [error] Error: chatParticipant must be declared in package.json: copilot-swe-agent
+    at eGt.$registerAgent (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:509:6599)
+2025-10-20 16:06:49.508 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-20 16:06:49.519 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-20 16:06:49.597 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-20 16:07:15.769 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-20 16:07:15.894 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-20 16:07:16.026 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-10-20 16:07:16.030 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-10-20 16:07:16.055 [info] ExtensionService#_doActivateExtension njqdev.vscode-python-typehint, startup: false, activationEvent: 'onLanguage:python'
+2025-10-20 16:07:16.599 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-10-20 17:50:31.570 [error] HttpError: getaddrinfo EAI_AGAIN api.github.com
+	at ef (/home/chunote/.vscode-oss/extensions/github.vscode-pull-request-github-0.120.1-universal/dist/extension.js:3137:25200)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async ny.execute (/home/chunote/.vscode-oss/extensions/github.vscode-pull-request-github-0.120.1-universal/dist/extension.js:3034:4210)
+2025-10-20 17:51:45.716 [warning] TextEditor is closed/disposed
+2025-10-20 17:52:11.271 [warning] TextEditor is closed/disposed
+2025-10-20 20:31:35.822 [error] HttpError: getaddrinfo EAI_AGAIN api.github.com
+	at ef (/home/chunote/.vscode-oss/extensions/github.vscode-pull-request-github-0.120.1-universal/dist/extension.js:3137:25200)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async ny.execute (/home/chunote/.vscode-oss/extensions/github.vscode-pull-request-github-0.120.1-universal/dist/extension.js:3034:4210)
+2025-10-20 20:36:44.288 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-20 20:36:44.306 [info] Extension host with pid 28053 exiting with code 0
+2025-10-20 20:36:44.316 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-20 20:36:44.363 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-10-20 20:36:44.379 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:135136)
+	at D_.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26299)
+	at D_.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26395)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2115:29269)
+	at /home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17196
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17178)
+	at zr (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at EL._fn (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18542)
+	at EL.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1261)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14807)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-20 20:36:44.404 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/chunote/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal/dist/extension.js:2:668378)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14582)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-20 20:36:44.424 [error] Error: Channel has been closed
+	at s (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3260)
+	at Object.append (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3357)
+	at Socket.<anonymous> (/home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/dist/extension.js:1:7963)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-10-20 20:36:44.428 [info] Extension host with pid 27968 exiting with code 0

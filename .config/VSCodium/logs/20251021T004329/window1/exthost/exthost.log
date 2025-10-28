@@ -1,0 +1,106 @@
+2025-10-21 00:43:32.715 [info] Extension host with pid 11223 started
+2025-10-21 00:43:32.715 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-21 00:43:32.967 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-21 00:43:33.246 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-21 00:43:33.317 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:app.py'
+2025-10-21 00:43:33.954 [info] Extension host with pid 11269 started
+2025-10-21 00:43:33.954 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-21 00:43:33.970 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-21 00:43:34.064 [info] Eager extensions activated
+2025-10-21 00:43:34.110 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-21 00:43:34.186 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:34.653 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-21 00:43:35.289 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-21 00:43:35.702 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: true, activationEvent: 'workspaceContains:*.py,*.ipynb'
+2025-10-21 00:43:35.906 [info] Eager extensions activated
+2025-10-21 00:43:36.473 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:36.481 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:36.542 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:36.556 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:36.895 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:36.905 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:37.118 [info] ExtensionService#_doActivateExtension franneck94.vscode-python-config, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:37.136 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:37.651 [info] ExtensionService#_doActivateExtension Supermaven.supermaven, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 00:43:38.571 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 00:43:38.686 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 00:43:38.772 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 00:43:38.779 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 00:43:38.802 [info] ExtensionService#_doActivateExtension njqdev.vscode-python-typehint, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 00:43:39.697 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-21 00:43:39.723 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-10-21 00:43:39.735 [warning] Canceled
+2025-10-21 00:43:39.737 [info] Extension host with pid 11269 exiting with code 0
+2025-10-21 00:43:39.782 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-10-21 00:43:39.863 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-21 00:43:39.887 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-10-21 00:43:39.892 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:135136)
+	at D_.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26299)
+	at D_.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26395)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2115:29269)
+	at /home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17196
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17178)
+	at zr (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at EL._fn (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18542)
+	at EL.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1261)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14807)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 00:43:39.914 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/chunote/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal/dist/extension.js:2:668378)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14582)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 00:43:39.920 [warning] Canceled
+2025-10-21 00:43:39.941 [error] Error: Channel has been closed
+	at s (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3260)
+	at Object.append (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3357)
+	at Socket.<anonymous> (/home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/dist/extension.js:1:7963)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-10-21 00:43:39.943 [error] Error: Channel has been closed
+	at s (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3260)
+	at Object.appendLine (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3399)
+	at b.logOutputMessage (/home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/dist/extension.js:1:370891)
+	at b.error (/home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/dist/extension.js:1:370782)
+	at ChildProcess.<anonymous> (/home/chunote/.vscode-oss/extensions/charliermarsh.ruff-2025.28.0-linux-x64/dist/extension.js:1:9309)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-10-21 00:43:40.159 [error] Error: Channel has been closed
+	at s (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3260)
+	at Object.append (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3357)
+	at Socket.<anonymous> (/home/chunote/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2290401)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-10-21 00:43:40.162 [error] Error: Channel has been closed
+	at s (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3260)
+	at Object.append (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:121:3357)
+	at Socket.<anonymous> (/home/chunote/.vscode-oss/extensions/ms-python.python-2025.16.0-universal/out/client/extension.js:2:2290401)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2025-10-21 00:43:40.172 [info] Extension host with pid 11223 exiting with code 0

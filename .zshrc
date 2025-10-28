@@ -87,6 +87,9 @@ alias c="clear"
 alias l="ls -la --color"
 # q to exit
 alias q='exit'
+# f to fastfetch
+alias f='fastfetch'
+alias s='librespot -n "headless" -b 320 -c ./cache --enable-volume-normalisation --initial-volume 75 --device-type avr'
 
 alias vpn="protonvpn-cli"
 alias tri="tree -I ".git" -a ."
@@ -139,3 +142,4 @@ extract () {
     fi
 }
 
+f

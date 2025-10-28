@@ -1,0 +1,3 @@
+2025-10-21 00:43:38.222 [warning] /home/chunote/.ssh/config: ENOENT: no such file or directory, open '/home/chunote/.ssh/config'
+2025-10-21 00:43:38.222 [info] [Activation] Extension version: 0.120.1
+2025-10-21 00:43:39.916 [info] [TemporaryState] Error in initialization: Canceled

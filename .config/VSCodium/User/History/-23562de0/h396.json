@@ -1,0 +1,8 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.fontLigatures": true
+}

@@ -1,3 +1,0 @@
-# PROJECTNAME
-
-Fill out doc.

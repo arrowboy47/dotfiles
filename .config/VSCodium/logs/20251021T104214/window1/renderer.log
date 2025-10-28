@@ -1,0 +1,15 @@
+2025-10-21 10:42:15.298 [info] Started local extension host with pid 137244.
+2025-10-21 10:42:15.508 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-21 10:42:15.527 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-21 10:42:15.626 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-21 10:42:15.641 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:42:15.829 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:42:16.227 [info] Started local extension host with pid 137337.
+2025-10-21 10:42:17.201 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-21 10:42:17.201 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-21 10:42:18.159 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-21 10:42:19.484 [info] [perf] Render performance baseline is 28ms
+2025-10-21 10:42:20.504 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2025-10-21 10:42:25.045 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.

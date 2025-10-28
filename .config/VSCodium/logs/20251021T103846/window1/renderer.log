@@ -1,0 +1,25 @@
+2025-10-21 10:38:47.715 [info] Started local extension host with pid 129797.
+2025-10-21 10:38:47.957 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-21 10:38:47.980 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-21 10:38:48.114 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-21 10:38:48.131 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:38:48.377 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:38:48.735 [info] Started local extension host with pid 129880.
+2025-10-21 10:38:49.623 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-21 10:38:49.626 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-21 10:38:51.953 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-21 10:38:52.761 [info] [perf] Render performance baseline is 27ms
+2025-10-21 10:38:53.067 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2025-10-21 10:38:57.206 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:39:40.078 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:39:47.230 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:39:47.231 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:39:47.614 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:40:01.609 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:40:12.784 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:40:35.191 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:40:40.328 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:40:50.369 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-21 10:41:50.061 [warning] [backup tracker] suspended, ignoring unregister event vscode-userdata:/home/chunote/.config/VSCodium/User/settings.json 

@@ -1,0 +1,41 @@
+Changelog
+------------------------------
+Arrakis - Conky Theme
+[ Draco Themes Pack ] 
+
+by Closebox73
+
+Social
+X			: https://twitter.com/closebox73
+Discord		: https://discord.com/users/1115644269802311750
+Pling		: https://pling.com/u/closebox73x
+Mastodon	: https://mastodon.social/@closebox73
+------------------------------
+
+
+v2.9
+Release date : 11 Jul 2025
+-	New weather.sh v4.0
+-	New playerctl script
+-	New ssid script		
+-	Added trash info script
+-	Added player progress script
+-	Some changes in execi command
+-	Drop support for Mpd version, you can still use mpd but need to install mpdris2 so that it can be read in playerctl
+-	Some minor change
+
+
+v2.1
+Release date : 02 Jan 2024
+-	Added override_uutf8_locale line
+-	New weather.sh
+-	New weather-icon-text.sh
+-	Change main font from Dosis to be Barlow
+-	Added Fahrenheit version
+-	Added Trash info
+-	Some minor change
+
+
+v1.0
+Release date : 02 Sep 2022
+-	Initial release

@@ -1,0 +1,11 @@
+2025-10-20 13:12:48.027 [info] Telemetry is disabled
+2025-10-20 13:12:48.027 [info] Telemetry level is off
+2025-10-20 13:12:48.027 [info] Experiments are disabled, only manually opted experiments are active.
+2025-10-20 13:12:48.027 [warning] Dir "/home/chunote/Documents/codin/campSearch/.pixi/envs" is not watchable (directory does not exist)
+2025-10-20 13:12:48.666 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-10-20 13:12:48.672 [info] Python interpreter path: /bin/python
+2025-10-20 13:12:48.700 [info] > pyenv which python
+2025-10-20 13:12:48.700 [info] cwd: .
+2025-10-20 13:12:50.617 [info] Starting Jedi language server for campSearch.
+2025-10-20 13:12:59.966 [info] Discover tests for workspace name: undefined - uri: /home/chunote/.config/VSCodium/User/settings.json
+2025-10-20 13:13:04.341 [info] Discover tests for workspace name: undefined - uri: /home/chunote/.config/VSCodium/User/settings.json

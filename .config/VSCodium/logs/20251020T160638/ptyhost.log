@@ -1,0 +1,6 @@
+2025-10-20 16:06:41.694 [info] Revived process, old id 79e0618ea28c178a3f0e5895c95dc6c3-1 -> new id 1
+2025-10-20 16:06:41.755 [info] Expanding terminal instance, old id 79e0618ea28c178a3f0e5895c95dc6c3-1 -> new id 1
+2025-10-20 16:06:41.998 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-10-20 16:06:41.998 [info] Persistent process reconnection "1"
+2025-10-20 16:06:42.008 [error] Failed to set sticky bit on /tmp/chunote-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/chunote-codium-zsh'
+2025-10-20 16:06:42.071 [info] Persistent process "1": Replaying 187 chars and 1 size events

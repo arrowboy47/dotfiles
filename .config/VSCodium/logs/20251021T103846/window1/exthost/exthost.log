@@ -1,0 +1,75 @@
+2025-10-21 10:38:48.564 [info] Extension host with pid 129797 started
+2025-10-21 10:38:48.564 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-21 10:38:48.803 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-21 10:38:48.906 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: charliermarsh.ruff
+2025-10-21 10:38:49.345 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:49.420 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:49.424 [info] ExtensionService#_doActivateExtension njpwerner.autodocstring, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:49.438 [info] ExtensionService#_doActivateExtension njqdev.vscode-python-typehint, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:49.810 [info] Extension host with pid 129880 started
+2025-10-21 10:38:49.810 [info] Skipping acquiring lock for /home/chunote/.config/VSCodium/User/workspaceStorage/79e0618ea28c178a3f0e5895c95dc6c3.
+2025-10-21 10:38:49.848 [info] Eager extensions activated
+2025-10-21 10:38:49.861 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:50.066 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-10-21 10:38:50.098 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-21 10:38:50.174 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-21 10:38:50.326 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-21 10:38:50.527 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-21 10:38:51.035 [info] ExtensionService#_doActivateExtension charliermarsh.ruff, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:51.084 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-21 10:38:51.185 [info] Eager extensions activated
+2025-10-21 10:38:51.230 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.236 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.304 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.316 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.733 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.738 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.836 [info] ExtensionService#_doActivateExtension franneck94.vscode-python-config, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:51.844 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-10-21 10:38:51.877 [info] ExtensionService#_doActivateExtension Supermaven.supermaven, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:52.506 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-10-21 10:38:53.061 [error] Error: chatParticipant must be declared in package.json: copilot-swe-agent
+    at eGt.$registerAgent (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:509:6599)
+2025-10-21 10:39:42.543 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-21 10:39:42.556 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-21 10:39:42.635 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-21 10:41:50.005 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-21 10:41:50.015 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2025-10-21 10:41:50.019 [warning] Canceled
+2025-10-21 10:41:50.019 [info] Extension host with pid 129880 exiting with code 0
+2025-10-21 10:41:50.021 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-21 10:41:50.041 [error] An error occurred when disposing the subscriptions for extension 'eamodio.gitlens':
+2025-10-21 10:41:50.044 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at Object.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:142:135136)
+	at D_.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26299)
+	at D_.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:26395)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2115:29269)
+	at /home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17196
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/chunote/.vscode-oss/extensions/eamodio.gitlens-17.6.2-universal/dist/gitlens.js:2394:17178)
+	at zr (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:746)
+	at EL._fn (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18542)
+	at EL.dispose (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1261)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14807)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 10:41:50.060 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/chunote/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal/dist/extension.js:2:668378)
+	at SY._deactivate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14582)
+	at file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12093
+	at Array.map (<anonymous>)
+	at SY._deactivateAll (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12081)
+	at SY.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12434)
+	at B8.terminate (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at As (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:11090)
+	at MessagePortMain.<anonymous> (file:///usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:7537)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-10-21 10:41:50.067 [info] Extension host with pid 129797 exiting with code 0

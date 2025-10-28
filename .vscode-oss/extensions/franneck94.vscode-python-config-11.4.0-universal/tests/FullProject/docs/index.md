@@ -1,3 +1,0 @@
-# FullProject
-
-Fill out doc.

@@ -1,0 +1,15 @@
+2025-10-21 16:41:55.624 [info] MainController: Starting nvim: /usr/bin/nvim -N --embed --cmd source /home/chunote/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.18.24-universal/runtime/vscode-neovim.vim
+2025-10-21 16:41:55.788 [info] MainController: Nvim info: {
+  nvimVersion: {
+    api_compatible: 0,
+    build: null,
+    prerelease: false,
+    api_level: 13,
+    api_prerelease: false,
+    major: 0,
+    minor: 11,
+    patch: 4
+  },
+  logFile: '/home/chunote/.local/state/nvim/log',
+  configDir: '/home/chunote/.config/nvim'
+}

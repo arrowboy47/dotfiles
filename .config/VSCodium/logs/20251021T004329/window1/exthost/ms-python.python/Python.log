@@ -1,0 +1,11 @@
+2025-10-21 00:43:34.613 [info] Telemetry is disabled
+2025-10-21 00:43:34.613 [info] Telemetry level is off
+2025-10-21 00:43:34.613 [info] Experiments are disabled, only manually opted experiments are active.
+2025-10-21 00:43:34.613 [warning] Dir "/home/chunote/Documents/codin/campSearch/.pixi/envs" is not watchable (directory does not exist)
+2025-10-21 00:43:35.614 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2025-10-21 00:43:35.616 [info] Python interpreter path: /bin/python
+2025-10-21 00:43:35.795 [info] > pyenv which python
+2025-10-21 00:43:35.795 [info] cwd: .
+2025-10-21 00:43:38.189 [info] Starting Jedi language server for campSearch.
+2025-10-21 00:43:39.577 [info] > conda info --json
+2025-10-21 00:43:39.598 [info] > /usr/share/anaconda/bin/conda info --json

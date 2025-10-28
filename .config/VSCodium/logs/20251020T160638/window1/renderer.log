@@ -1,0 +1,33 @@
+2025-10-20 16:06:39.810 [info] Started local extension host with pid 27968.
+2025-10-20 16:06:40.342 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-20 16:06:40.361 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-20 16:06:40.488 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-20 16:06:40.511 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-20 16:06:40.714 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-20 16:06:40.968 [info] Started local extension host with pid 28053.
+2025-10-20 16:06:41.614 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-20 16:06:41.614 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-20 16:06:42.649 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-20 16:06:43.303 [info] [perf] Render performance baseline is 59ms
+2025-10-20 16:06:43.418 [error] [Extension Host] (node:27968) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-20 16:06:44.433 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2025-10-20 16:06:48.739 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:06:54.685 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:21:49.123 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:21:50.482 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:21:51.833 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:21:53.240 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:23:23.999 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 16:23:25.503 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 17:50:30.570 [error] [Extension Host] GET /search/issues?q=is%3Apull-request%20repo%3Aarrowboy47%2FcampSearch%20is%3Aopen%20author%3Acopilot-swe-agent%5Bbot%5D%20involves%3Aarrowboy47%20type%3Apr&per_page=20&advanced_search=true&page=1 - 500 with id UNKNOWN in 89ms
+2025-10-20 17:50:31.627 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-20 17:51:46.059 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-20 17:51:46.062 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: commands.filters, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-10-20 17:52:11.325 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-20 20:31:34.822 [error] [Extension Host] GET /search/issues?q=is%3Apull-request%20repo%3Aarrowboy47%2FcampSearch%20is%3Aopen%20author%3Acopilot-swe-agent%5Bbot%5D%20involves%3Aarrowboy47%20type%3Apr&per_page=20&advanced_search=true&page=1 - 500 with id UNKNOWN in 127ms
+2025-10-20 20:31:35.833 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-20 20:32:09.762 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-20 20:36:00.620 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.

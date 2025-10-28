@@ -1,0 +1,38 @@
+2025-10-21 10:42:18.483 [info] [main] Log level: Info
+2025-10-21 10:42:18.483 [info] [main] Validating found git in: "git"
+2025-10-21 10:42:18.484 [info] [main] Using git "2.51.0" from "git"
+2025-10-21 10:42:18.484 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-21 10:42:18.484 [info] > git rev-parse --show-toplevel [41ms]
+2025-10-21 10:42:18.484 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2025-10-21 10:42:18.484 [info] [Model][openRepository] Opened repository (path): /home/chunote/Documents/codin/campSearch
+2025-10-21 10:42:18.484 [info] [Model][openRepository] Opened repository (real path): /home/chunote/Documents/codin/campSearch
+2025-10-21 10:42:18.484 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-21 10:42:18.484 [info] > git rev-parse --show-toplevel [29ms]
+2025-10-21 10:42:18.484 [info] > git config --get commit.template [48ms]
+2025-10-21 10:42:18.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-10-21 10:42:18.484 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-21 10:42:18.484 [info] > git rev-parse --show-toplevel [19ms]
+2025-10-21 10:42:18.484 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2025-10-21 10:42:18.484 [info] > git status -z -uall [11ms]
+2025-10-21 10:42:18.484 [info] > git rev-parse --show-toplevel [30ms]
+2025-10-21 10:42:18.484 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2025-10-21 10:42:18.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-10-21 10:42:18.500 [info] > git rev-parse --show-toplevel [49ms]
+2025-10-21 10:42:18.501 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-21 10:42:18.508 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-10-21 10:42:18.515 [info] > git config --get commit.template [23ms]
+2025-10-21 10:42:18.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-10-21 10:42:18.538 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2025-10-21 10:42:18.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-10-21 10:42:18.554 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-21 10:42:18.565 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-10-21 10:42:18.576 [info] > git diff --name-status -z --diff-filter=ADMR 3a9304beebd3cfc921181dbb7d1a0e94051750ef...refs/remotes/origin/main [30ms]
+2025-10-21 10:42:18.579 [info] > git status -z -uall [9ms]
+2025-10-21 10:42:18.579 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-21 10:42:19.071 [info] > git check-ignore -v -z --stdin [5ms]
+2025-10-21 10:42:19.118 [info] > git show --textconv :weather.py [10ms]
+2025-10-21 10:42:19.195 [info] > git ls-files --stage -- weather.py [78ms]
+2025-10-21 10:42:19.216 [info] > git cat-file -s f78ab9875525b7c39f6a8f59e1115d0420f8734d [16ms]
+2025-10-21 10:42:20.301 [info] > git blame --root --incremental 3a9304beebd3cfc921181dbb7d1a0e94051750ef -- weather.py [48ms]
+2025-10-21 10:42:21.032 [info] > git config --get --local branch.main.github-pr-owner-number [80ms]
+2025-10-21 10:42:21.032 [warning] [Git][config] git config failed: Failed to execute git

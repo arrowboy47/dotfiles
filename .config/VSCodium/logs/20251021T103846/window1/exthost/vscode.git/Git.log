@@ -1,0 +1,38 @@
+2025-10-21 10:38:51.009 [info] [main] Log level: Info
+2025-10-21 10:38:51.009 [info] [main] Validating found git in: "git"
+2025-10-21 10:38:51.009 [info] [main] Using git "2.51.0" from "git"
+2025-10-21 10:38:51.009 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-21 10:38:51.009 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-21 10:38:51.009 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [11ms]
+2025-10-21 10:38:51.009 [info] [Model][openRepository] Opened repository (path): /home/chunote/Documents/codin/campSearch
+2025-10-21 10:38:51.009 [info] [Model][openRepository] Opened repository (real path): /home/chunote/Documents/codin/campSearch
+2025-10-21 10:38:51.009 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-21 10:38:51.009 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-21 10:38:51.009 [info] > git config --get commit.template [10ms]
+2025-10-21 10:38:51.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-10-21 10:38:51.009 [info] > git rev-parse --show-toplevel [20ms]
+2025-10-21 10:38:51.009 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-21 10:38:51.009 [info] > git rev-parse --show-toplevel [4ms]
+2025-10-21 10:38:51.009 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-10-21 10:38:51.009 [info] > git status -z -uall [18ms]
+2025-10-21 10:38:51.009 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-10-21 10:38:51.009 [info] > git rev-parse --show-toplevel [56ms]
+2025-10-21 10:38:51.009 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-21 10:38:51.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [125ms]
+2025-10-21 10:38:51.009 [info] > git config --get --local branch.main.vscode-merge-base [32ms]
+2025-10-21 10:38:51.009 [info] > git config --get commit.template [67ms]
+2025-10-21 10:38:51.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-10-21 10:38:51.009 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2025-10-21 10:38:51.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-10-21 10:38:51.019 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-21 10:38:51.020 [info] > git diff --name-status -z --diff-filter=ADMR 3a9304beebd3cfc921181dbb7d1a0e94051750ef...refs/remotes/origin/main [13ms]
+2025-10-21 10:38:51.022 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-10-21 10:38:51.164 [info] > git status -z -uall [138ms]
+2025-10-21 10:38:51.164 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [133ms]
+2025-10-21 10:38:52.337 [info] > git check-ignore -v -z --stdin [363ms]
+2025-10-21 10:38:52.491 [info] > git show --textconv :weather.py [84ms]
+2025-10-21 10:38:52.491 [info] > git ls-files --stage -- weather.py [70ms]
+2025-10-21 10:38:52.691 [info] > git cat-file -s f78ab9875525b7c39f6a8f59e1115d0420f8734d [193ms]
+2025-10-21 10:38:53.550 [info] > git config --get --local branch.main.github-pr-owner-number [66ms]
+2025-10-21 10:38:53.550 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-21 10:39:42.404 [info] > git blame --root --incremental 3a9304beebd3cfc921181dbb7d1a0e94051750ef -- weather.py [4ms]

@@ -1,0 +1,40 @@
+2025-10-21 00:43:31.378 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-21 00:43:31.378 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: commands.filters, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList
+2025-10-21 00:43:31.691 [info] Started local extension host with pid 11223.
+2025-10-21 00:43:31.761 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-21 00:43:31.777 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-21 00:43:31.866 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-21 00:43:31.883 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 00:43:32.208 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 00:43:32.453 [info] Started local extension host with pid 11269.
+2025-10-21 00:43:33.636 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-21 00:43:34.982 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-21 00:43:36.142 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-21 00:43:36.988 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-21 00:43:36.989 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-21 00:43:37.030 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-21 00:43:37.971 [warning] Settings pattern "mcp" doesn't match any settings
+2025-10-21 00:43:38.234 [error] [Extension Host] (node:11223) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-21 00:43:39.666 [info] [perf] Render performance baseline is 92ms
+2025-10-21 00:43:39.798 [error] Canceled: Canceled
+    at jy (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1444)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:48429
+    at Array.forEach (<anonymous>)
+    at t1t.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:48335)
+    at XRe.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:62628)
+    at Zgn.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3818:10474)
+    at Jgn.stopAllInReverse (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3818:9608)
+    at async Fxt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:21410)
+2025-10-21 00:43:39.799 [error] Canceled: Canceled
+    at jy (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1444)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:48429
+    at Array.forEach (<anonymous>)
+    at t1t.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:48335)
+    at XRe.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3811:62628)
+    at Zgn.dispose (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3818:10474)
+    at Jgn.stopAllInReverse (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3818:9608)
+    at async Fxt._doStopExtensionHosts (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:3817:21410)
+2025-10-21 00:43:39.800 [warning] [backup tracker] suspended, ignoring unregister event git:/home/chunote/Documents/codin/campSearch/weather.py.git?%7B%22path%22%3A%22%2Fhome%2Fchunote%2FDocuments%2Fcodin%2FcampSearch%2Fweather.py%22%2C%22ref%22%3A%22%22%7D 

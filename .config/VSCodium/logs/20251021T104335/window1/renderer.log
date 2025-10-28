@@ -1,0 +1,16 @@
+2025-10-21 10:43:36.904 [info] Started local extension host with pid 140436.
+2025-10-21 10:43:37.633 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-21 10:43:37.656 [info] Ignoring configured affinity for 'asvetliakov.vscode-neovim' because extension host(s) are already running. Reload window.
+2025-10-21 10:43:37.735 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-21 10:43:37.857 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-21 10:43:37.878 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:43:38.172 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-21 10:43:38.619 [info] Started local extension host with pid 140631.
+2025-10-21 10:43:39.425 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-21 10:43:39.426 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-21 10:43:41.510 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-21 10:43:41.864 [info] [perf] Render performance baseline is 65ms
+2025-10-21 10:43:42.146 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2025-10-21 10:43:46.211 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.

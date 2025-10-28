@@ -1,0 +1,35 @@
+2025-10-23 12:13:47.967 [info] Started local extension host with pid 147314.
+2025-10-23 12:13:48.546 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'chatSessionsProvider@2' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-23 12:13:48.568 [info] Placing extension(s) asvetliakov.vscode-neovim on a separate extension host.
+2025-10-23 12:13:48.713 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-10-23 12:13:48.739 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-23 12:13:49.067 [error] Ignoring clangd.onConfigChanged.forceEnable as clangd.onConfigChanged is "prompt"
+2025-10-23 12:13:49.520 [info] Started local extension host with pid 147435.
+2025-10-23 12:13:53.306 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-html
+2025-10-23 12:13:53.307 [error] [EricSia.pythonsnippets3]: Unknown language in `contributes.pythonsnippets3.language`. Provided value: django-txt
+2025-10-23 12:13:55.247 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-10-23 12:13:55.624 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2025-10-23 12:13:56.056 [info] [perf] Render performance baseline is 78ms
+2025-10-23 12:13:59.915 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:14:12.470 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:14:12.522 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:14:12.933 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:21:38.294 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:25:06.902 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:25:08.828 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:25:29.177 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:25:32.606 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:25:33.965 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:27:31.034 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:27:42.541 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:28:47.385 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:28:48.493 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:30:37.060 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:31:07.170 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:31:13.793 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:32:50.293 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:45:56.113 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 12:46:02.869 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.
+2025-10-23 13:10:02.122 [error] [Extension Host] View has not been initialized after retrying for 5 seconds.

@@ -1,0 +1,53 @@
+2025-10-23 12:13:52.462 [info] [main] Log level: Info
+2025-10-23 12:13:52.462 [info] [main] Validating found git in: "git"
+2025-10-23 12:13:52.462 [info] [main] Using git "2.51.0" from "git"
+2025-10-23 12:13:52.462 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-23 12:13:52.462 [info] > git rev-parse --show-toplevel [18ms]
+2025-10-23 12:13:52.463 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [23ms]
+2025-10-23 12:13:52.463 [info] [Model][openRepository] Opened repository (path): /home/chunote/Documents/codin/campSearch
+2025-10-23 12:13:52.463 [info] [Model][openRepository] Opened repository (real path): /home/chunote/Documents/codin/campSearch
+2025-10-23 12:13:52.463 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-23 12:13:52.463 [info] > git config --get commit.template [18ms]
+2025-10-23 12:13:52.463 [info] > git rev-parse --show-toplevel [19ms]
+2025-10-23 12:13:52.463 [info] > git rev-parse --show-toplevel [19ms]
+2025-10-23 12:13:52.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-10-23 12:13:52.463 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-23 12:13:52.463 [info] > git rev-parse refs/remotes/origin/main [31ms]
+2025-10-23 12:13:52.463 [info] > git rev-parse --show-toplevel [67ms]
+2025-10-23 12:13:52.463 [info] > git status -z -uall [27ms]
+2025-10-23 12:13:52.463 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-10-23 12:13:52.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-10-23 12:13:52.485 [info] > git rev-parse --show-toplevel [73ms]
+2025-10-23 12:13:52.485 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-23 12:13:52.494 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-10-23 12:13:52.501 [info] > git config --get commit.template [28ms]
+2025-10-23 12:13:52.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2025-10-23 12:13:52.521 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-10-23 12:13:52.524 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-10-23 12:13:52.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-23 12:13:52.544 [info] > git diff --name-status -z --diff-filter=ADMR 3a9304beebd3cfc921181dbb7d1a0e94051750ef...refs/remotes/origin/main [11ms]
+2025-10-23 12:13:52.546 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-10-23 12:13:52.559 [info] > git status -z -uall [8ms]
+2025-10-23 12:13:52.559 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-23 12:13:53.009 [info] > git check-ignore -v -z --stdin [9ms]
+2025-10-23 12:13:53.477 [info] > git show --textconv :weather.py [28ms]
+2025-10-23 12:13:53.479 [info] > git ls-files --stage -- weather.py [20ms]
+2025-10-23 12:13:54.526 [info] > git cat-file -s f78ab9875525b7c39f6a8f59e1115d0420f8734d [1042ms]
+2025-10-23 12:13:55.272 [info] > git blame --root --incremental 3a9304beebd3cfc921181dbb7d1a0e94051750ef -- weather.py [94ms]
+2025-10-23 12:13:56.404 [info] > git config --get --local branch.main.github-pr-owner-number [80ms]
+2025-10-23 12:13:56.404 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-23 13:11:16.664 [info] > git config --get commit.template [39ms]
+2025-10-23 13:11:16.677 [info] > git ls-files --stage -- weather.py [16ms]
+2025-10-23 13:11:16.694 [info] > git cat-file -s f78ab9875525b7c39f6a8f59e1115d0420f8734d [4ms]
+2025-10-23 13:11:16.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-10-23 13:11:16.707 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-23 13:11:16.719 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-10-23 13:11:16.742 [info] > git show --textconv :weather.py [24ms]
+2025-10-23 13:11:16.742 [info] > git status -z -uall [14ms]
+2025-10-23 13:11:16.744 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-23 13:11:26.475 [info] > git config --get commit.template [36ms]
+2025-10-23 13:11:26.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-10-23 13:11:26.494 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/chunote/Documents/codin/campSearch/.git/refs/remotes/origin/main'
+2025-10-23 13:11:26.498 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-10-23 13:11:26.525 [info] > git status -z -uall [13ms]
+2025-10-23 13:11:26.527 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

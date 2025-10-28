@@ -1,0 +1,15 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'FiraCode Nerd', 'monospace', monospace",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "jupyter.themeMatplotlibPlots": true,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
+    "workbench.preferredHighContrastLightColorTheme": "Catppuccin Macchiato",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte"
+}

@@ -1,0 +1,17 @@
+2025-10-20 16:06:44.070 [warning] /home/chunote/.ssh/config: ENOENT: no such file or directory, open '/home/chunote/.ssh/config'
+2025-10-20 16:06:44.070 [info] [Activation] Extension version: 0.120.1
+2025-10-20 16:06:44.138 [info] [Authentication] Creating hub for .com
+2025-10-20 16:06:44.198 [info] [Activation] Looking for git repository
+2025-10-20 16:06:44.198 [info] [Activation] Found 0 repositories during activation
+2025-10-20 16:06:44.198 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-10-20 16:06:44.204 [info] [GitAPI] Registering git provider
+2025-10-20 16:06:44.204 [info] [Review+0] Validate state in progress
+2025-10-20 16:06:44.204 [info] [Review+0] Validating state...
+2025-10-20 16:06:44.432 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/chunote/Documents/codin/campSearch
+2025-10-20 16:06:44.865 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-10-20 16:06:44.984 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-10-20 16:06:45.002 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2025-10-20 16:06:45.725 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2025-10-20 16:06:45.726 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-10-20 17:50:30.568 [error] [FolderRepositoryManager+0] Fetching pull request with query failed: HttpError: getaddrinfo EAI_AGAIN api.github.com
+2025-10-20 20:31:34.821 [error] [FolderRepositoryManager+0] Fetching pull request with query failed: HttpError: getaddrinfo EAI_AGAIN api.github.com
