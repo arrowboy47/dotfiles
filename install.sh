@@ -34,7 +34,7 @@ fi
 ASSETS="/run/media/$USER/dotfiles-assets"
 if [ -d "$ASSETS" ]; then
   echo "[+] Copying assets from USB..."
-  mkdir -p ~/.local/share/fonts ~/.local/share/icons ~/Pictures/wallpapers
+  mkdir -p ~/.local/share/fonts ~/.local/share/icons
   cp -r $ASSETS/local/share/fonts/* ~/.local/share/fonts/ 2>/dev/null || true
   cp -r $ASSETS/local/share/icons/* ~/.local/share/icons/ 2>/dev/null || true
   fc-cache -fv
@@ -44,7 +44,7 @@ fi
 
 # --- Apply configs using stow ---
 echo "[+] Applying dotfiles with stow..."
-for dir in .config .local Documents; do
+for dir in .config; do
   [ -d "$dir" ] && stow -t ~ "$dir"
 done
 
