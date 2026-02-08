@@ -1,7 +1,0 @@
-app.bluebubbles.BlueBubbles
-com.github.GradienceTeam.Gradience
-com.github.iwalton3.jellyfin-media-player
-com.github.xournalpp.xournalpp
-md.obsidian.Obsidian
-org.gnome.Extensions
-us.zoom.Zoom
