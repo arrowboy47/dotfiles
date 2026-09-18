@@ -81,16 +81,25 @@ alias wifils="nmcli d wifi list ifname wlan0"
 alias v='nvim'
 export EDITOR='nvim'
 
+# vpn wg
+alias wgu="sudo wg-quick up wg0"
+alias wgd="sudo wg-quick down wg0"
+
+# python alias
+alias p='python'
+
 # c to clear
 alias c="clear"
 # ls to ls -la
-alias l="ls -la --color"
+alias ls="ls -lh --color=auto"
+alias l="eza -lah --color=auto --icons --group-directories-first"
 # q to exit
 alias q='exit'
 # f to fastfetch
 alias f='fastfetch'
 alias s='librespot -n "headless" -b 320 -c ./cache --enable-volume-normalisation --initial-volume 75 --device-type avr'
 
+alias kssh="kitten ssh"
 alias vpn="protonvpn-cli"
 alias tri="tree -I ".git" -a ."
 
@@ -143,3 +152,15 @@ extract () {
 }
 
 f
+export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH=$PATH:/home/arrowboy/.spicetify
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+# OpenClaw Completion
+source "/home/arrowboy/.openclaw/completions/openclaw.zsh"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/arrowboy/.lmstudio/bin"
+# End of LM Studio CLI section
+

@@ -1,0 +1,12 @@
+# VSCodium: keep only settings + extensions list, ignore machine state/caches/tokens
+.config/VSCodium/*
+!.config/VSCodium/User/
+!.config/VSCodium/extensions.txt
+.config/VSCodium/User/*
+!.config/VSCodium/User/settings.json
+!.config/VSCodium/User/keybindings.json
+!.config/VSCodium/User/snippets/
+
+# deps / caches
+**/node_modules/
+**/.cache/
