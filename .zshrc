@@ -82,8 +82,8 @@ alias v='nvim'
 export EDITOR='nvim'
 
 # vpn wg
-alias wgu="sudo wg-quick up wg0"
-alias wgd="sudo wg-quick down wg0"
+alias wgu="nmcli connection up wg0"
+alias wgd="nmcli connection down wg0"
 
 # python alias
 alias p='python'
@@ -157,8 +157,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=$PATH:/home/arrowboy/.spicetify
 export PATH="$HOME/.npm-global/bin:$PATH"
 
-# OpenClaw Completion
-source "/home/arrowboy/.openclaw/completions/openclaw.zsh"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/arrowboy/.lmstudio/bin"
