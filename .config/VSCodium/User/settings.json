@@ -2,15 +2,21 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "workbench.colorTheme": "Catppuccin Macchiato",
-    "terminal.integrated.fontLigatures.enabled": true,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'FiraCode Nerd', 'monospace', monospace",
-    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.iconTheme": "catppuccin-mocha",
     "jupyter.themeMatplotlibPlots": true,
     "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
-    "workbench.preferredHighContrastLightColorTheme": "Catppuccin Macchiato",
-    "workbench.preferredLightColorTheme": "Catppuccin Latte",
-    "workbench.startupEditor": "none"
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+    "workbench.preferredLightColorTheme": "Catppuccin Frappé",
+    "workbench.startupEditor": "none",
+    "window.menuStyle": "native",
+    "claudeCode.hideOnboarding": true,
+    "redhat.telemetry.enabled": false,
+    "yaml.schemas": {
+        "file:///home/arrowboy/.vscode-oss/extensions/continue.continue-2.0.0-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    }
 }
